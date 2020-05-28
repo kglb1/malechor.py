@@ -10,7 +10,7 @@ import sys
 
 
 malechor = pyfiglet.figlet_format("Malechor . py")
-hashes_org_api = ('detij2JCVxi86KircnB4dYlANfQ8pQ')
+hashes_org_api = ('your hashes.org api')
 
 
 print(malechor)
@@ -113,7 +113,7 @@ def menu():
                      print('[*] Can\'t reach proxy "%s"' % proxy)
                  print('')
 
-             # Check if username exists in instagram server
+            
              def IsUserExists(self):
                  r = requests.get('https://www.instagram.com/%s/?__a=1' % self.username)
                  if (r.status_code == 404):
