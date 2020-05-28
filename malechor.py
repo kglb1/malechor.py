@@ -44,7 +44,7 @@ def menu():
         )
 
         response = requests.get('https://api.dehashed.com/search', headers=headers, params=params,
-                                auth=('kevingluciano@gmail.com', 'ec657654ef5ab1e6b542be806d2604eb'))
+                                auth=('your@email.com', 'ec657654ef5ab1e6b542be806d2604eb'))
 
         data1 = response.json()
 
